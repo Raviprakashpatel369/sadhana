@@ -1,0 +1,33 @@
+body {
+    background-color: gainsboro;
+
+}
+
+th {
+    background-color: #2b426b
+}
+
+tr {
+
+    background-color: #e5eaef;
+    height: 5vh;    
+}
+tr:hover td {
+    background-color:#f7f7f7;
+}
+
+table td{
+     font-size: 14px;
+    padding: 10px;
+}
+table thead{
+    font-size: 14px;
+    padding: 10px;
+}
+
+table tbody{
+    border-width: 2px;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #f7f7f7;
+}
